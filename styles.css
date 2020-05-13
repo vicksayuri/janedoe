@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border: solid;
+    border-color:#D8D8D8;
+    border-width: 0.5px;
+}
+
+.shadow {
+    box-shadow: 0px -8px 20px 0px black;
+}
+
+
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.menuCor{
+    color: orangered;
+    font-weight: bold;
+}
+
+main.index {
+    padding:130px 0px 0px;  
+
+}
+
+#imagem {
+    object-fit: cover;
+    height: 450px;
+    width: 100%;
+}
+
+main.outros {
+    padding:170px 0px 60px;  
+}
+
+.center {
+    padding: 2px 5px;
+    text-align: center;
+    color: black;
+}
+
+.pessoa {
+    padding: 2px 5px;
+    font-size: smaller;
+    color: black;
+}
+
+#imagemAbout {
+    width: 400px;
+    display: block;     /* Para fazer a imagem ficar responsiva a "transforma" em bloco e mantém as margens iguais*/
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 30px 
+}
+.left {
+    text-align: left;
+    margin: 0px 200px;
+    color: black;
+    padding: 2px 5px;
+}
+
+.lado-a-lado {
+    display: inline-block;
+    width: 49%;
+    height: 365px;
+
+}
+
+.form-group {
+    display: inline-block;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+button {
+    width: 75px;
+    color: white;
+    background-color: orangered;
+    border-width: 0px;
+    border-style: none;
+    padding: 3px;
+}
+
+.mapa {
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: smaller;
+    background-color: #F2F2F2;
+    color: black
+}
